@@ -7,6 +7,7 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+<<<<<<< HEAD
     --color-red-500: oklch(63.7% 0.237 25.331);
     --color-amber-200: oklch(92.4% 0.12 95.746);
     --color-amber-300: oklch(87.9% 0.169 91.605);
@@ -67,6 +68,13 @@
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
     --font-jost: "Jost", sans-serif;
+=======
+    --spacing: 0.25rem;
+    --font-weight-bold: 700;
+    --default-font-family: var(--font-sans);
+    --default-mono-font-family: var(--font-mono);
+    --font-jost: "jost", sans-serif;
+>>>>>>> 97728c60e18bdc21a628ad17fbdc49a4cbed5fd5
   }
 }
 @layer base {
@@ -227,15 +235,27 @@
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
+<<<<<<< HEAD
   .top-4 {
     top: calc(var(--spacing) * 4);
   }
   .top-10 {
     top: calc(var(--spacing) * 10);
+=======
+  .top-\[20\%\] {
+    top: 20%;
+  }
+  .top-\[30\%\] {
+    top: 30%;
+  }
+  .top-\[30\] {
+    top: 30;
+>>>>>>> 97728c60e18bdc21a628ad17fbdc49a4cbed5fd5
   }
   .top-\[50\%\] {
     top: 50%;
   }
+<<<<<<< HEAD
   .right-0 {
     right: calc(var(--spacing) * 0);
   }
@@ -301,10 +321,30 @@
   }
   .mx-5 {
     margin-inline: calc(var(--spacing) * 5);
+=======
+  .left-0 {
+    left: calc(var(--spacing) * 0);
+  }
+  .left-\[30\%\] {
+    left: 30%;
+  }
+  .left-\[35\%\] {
+    left: 35%;
+  }
+  .left-\[40\%\] {
+    left: 40%;
+  }
+  .left-\[50\%\] {
+    left: 50%;
+  }
+  .z-\[10\] {
+    z-index: 10;
+>>>>>>> 97728c60e18bdc21a628ad17fbdc49a4cbed5fd5
   }
   .mx-auto {
     margin-inline: auto;
   }
+<<<<<<< HEAD
   .my-5 {
     margin-block: calc(var(--spacing) * 5);
   }
@@ -367,10 +407,15 @@
   }
   .ml-\[10px\] {
     margin-left: 10px;
+=======
+  .mt-\[50px\] {
+    margin-top: 50px;
+>>>>>>> 97728c60e18bdc21a628ad17fbdc49a4cbed5fd5
   }
   .flex {
     display: flex;
   }
+<<<<<<< HEAD
   .grid {
     display: grid;
   }
@@ -481,10 +526,18 @@
   }
   .max-w-\[1280px\] {
     max-width: 1280px;
+=======
+  .table {
+    display: table;
+  }
+  .h-\[50px\] {
+    height: 50px;
+>>>>>>> 97728c60e18bdc21a628ad17fbdc49a4cbed5fd5
   }
   .max-w-\[1320px\] {
     max-width: 1320px;
   }
+<<<<<<< HEAD
   .max-w-\[1380px\] {
     max-width: 1380px;
   }
@@ -655,10 +708,28 @@
   .rounded-xl {
     border-radius: var(--radius-xl);
   }
+=======
+  .border-collapse {
+    border-collapse: collapse;
+  }
+  .resize {
+    resize: both;
+  }
+  .items-center {
+    align-items: center;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .gap-4 {
+    gap: calc(var(--spacing) * 4);
+  }
+>>>>>>> 97728c60e18bdc21a628ad17fbdc49a4cbed5fd5
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+<<<<<<< HEAD
   .border-2 {
     border-style: var(--tw-border-style);
     border-width: 2px;
@@ -778,10 +849,76 @@
   }
   .bg-white {
     background-color: var(--color-white);
+=======
+  .border-1 {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
+  .bg-\[\#515050\] {
+    background-color: #515050;
+  }
+  .bg-\[\#FEFEFE\] {
+    background-color: #FEFEFE;
+  }
+  .bg-\[url\] {
+    background-color: url;
+  }
+  .bg-\[url\(\'\'\)\] {
+    background-image: url('');
+  }
+  .bg-\[url\(\'\.\/\'\)\] {
+    background-image: url('./');
+  }
+  .bg-\[url\(\'\.\/img\'\)\] {
+    background-image: url('./img');
+  }
+  .bg-\[url\(\'\.\/img\/\'\)\] {
+    background-image: url('./img/');
+  }
+  .bg-\[url\(\'\.\/img\/j\'\)\] {
+    background-image: url('./img/j');
+  }
+  .bg-\[url\(\'\.\/img\/jorna\'\)\] {
+    background-image: url('./img/jorna');
+  }
+  .bg-\[url\(\'\.\/img\/jorna\.webp\'\)\] {
+    background-image: url('./img/jorna.webp');
+  }
+  .bg-\[url\(\'\/\'\)\] {
+    background-image: url('/');
+  }
+  .bg-\[url\(\'\/images\/\'\)\] {
+    background-image: url('/images/');
+  }
+  .bg-\[url\(\'\/images\/bg\.jpg\'\)\] {
+    background-image: url('/images/bg.jpg');
+  }
+  .bg-\[url\(\'\/images\/j\'\)\] {
+    background-image: url('/images/j');
+  }
+  .bg-\[url\(\'\/images\/jor\'\)\] {
+    background-image: url('/images/jor');
+  }
+  .bg-\[url\(\'\/images\/jorna\'\)\] {
+    background-image: url('/images/jorna');
+  }
+  .bg-\[url\(\'\/images\/jorna\.webp\'\)\] {
+    background-image: url('/images/jorna.webp');
+  }
+  .bg-\[url\(\'i\'\)\] {
+    background-image: url('i');
+  }
+  .bg-\[url\(\'images\/bg\.jpg\'\)\] {
+    background-image: url('images/bg.jpg');
+  }
+  .bg-\[url\(\'img\'\)\] {
+    background-image: url('img');
+>>>>>>> 97728c60e18bdc21a628ad17fbdc49a4cbed5fd5
   }
   .bg-cover {
     background-size: cover;
   }
+<<<<<<< HEAD
   .object-contain {
     object-fit: contain;
   }
@@ -943,10 +1080,39 @@
   }
   .pl-12 {
     padding-left: calc(var(--spacing) * 12);
+=======
+  .bg-center {
+    background-position: center;
+  }
+  .bg-no-repeat {
+    background-repeat: no-repeat;
+  }
+  .px-\[20px\] {
+    padding-inline: 20px;
+  }
+  .py-\[0px\] {
+    padding-block: 0px;
+  }
+  .py-\[10px\] {
+    padding-block: 10px;
+  }
+  .py-\[20\] {
+    padding-block: 20;
+  }
+  .py-\[20px\] {
+    padding-block: 20px;
+  }
+  .py-\[50px\] {
+    padding-block: 50px;
+  }
+  .pt-\[50px\] {
+    padding-top: 50px;
+>>>>>>> 97728c60e18bdc21a628ad17fbdc49a4cbed5fd5
   }
   .text-center {
     text-align: center;
   }
+<<<<<<< HEAD
   .text-left {
     text-align: left;
   }
@@ -1026,11 +1192,19 @@
   .font-\[500\] {
     --tw-font-weight: 500;
     font-weight: 500;
+=======
+  .font-jost {
+    font-family: var(--font-jost);
+  }
+  .text-\[60px\] {
+    font-size: 60px;
+>>>>>>> 97728c60e18bdc21a628ad17fbdc49a4cbed5fd5
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
+<<<<<<< HEAD
   .font-medium {
     --tw-font-weight: var(--font-weight-medium);
     font-weight: var(--font-weight-medium);
@@ -1088,10 +1262,27 @@
   }
   .text-white {
     color: var(--color-white);
+=======
+  .text-\[\#222222\] {
+    color: #222222;
+  }
+  .text-\[\#FEFEFE\] {
+    color: #FEFEFE;
+  }
+  .text-\[\#FFFFF\] {
+    color: #FFFFF;
+  }
+  .text-\[\#\] {
+    color: #;
+  }
+  .text-\[text-\[\#FEFEFE\]\] {
+    color: text-[#FEFEFE];
+>>>>>>> 97728c60e18bdc21a628ad17fbdc49a4cbed5fd5
   }
   .underline {
     text-decoration-line: underline;
   }
+<<<<<<< HEAD
   .underline-offset-1 {
     text-underline-offset: 1px;
   }
@@ -1112,10 +1303,13 @@
     --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
+=======
+>>>>>>> 97728c60e18bdc21a628ad17fbdc49a4cbed5fd5
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
   }
+<<<<<<< HEAD
   .outline-0 {
     outline-style: var(--tw-outline-style);
     outline-width: 0px;
@@ -1439,19 +1633,27 @@
   inherits: false;
   initial-value: 0;
 }
+=======
+}
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+>>>>>>> 97728c60e18bdc21a628ad17fbdc49a4cbed5fd5
 @property --tw-border-style {
   syntax: "*";
   inherits: false;
   initial-value: solid;
 }
+<<<<<<< HEAD
 @property --tw-leading {
   syntax: "*";
   inherits: false;
 }
+=======
+>>>>>>> 97728c60e18bdc21a628ad17fbdc49a4cbed5fd5
 @property --tw-font-weight {
   syntax: "*";
   inherits: false;
 }
+<<<<<<< HEAD
 @property --tw-tracking {
   syntax: "*";
   inherits: false;
@@ -1521,11 +1723,14 @@
   inherits: false;
   initial-value: 0 0 #0000;
 }
+=======
+>>>>>>> 97728c60e18bdc21a628ad17fbdc49a4cbed5fd5
 @property --tw-outline-style {
   syntax: "*";
   inherits: false;
   initial-value: solid;
 }
+<<<<<<< HEAD
 @property --tw-blur {
   syntax: "*";
   inherits: false;
@@ -1621,6 +1826,14 @@
       --tw-drop-shadow-alpha: 100%;
       --tw-drop-shadow-size: initial;
       --tw-duration: initial;
+=======
+@layer properties {
+  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
+    *, ::before, ::after, ::backdrop {
+      --tw-border-style: solid;
+      --tw-font-weight: initial;
+      --tw-outline-style: solid;
+>>>>>>> 97728c60e18bdc21a628ad17fbdc49a4cbed5fd5
     }
   }
 }
