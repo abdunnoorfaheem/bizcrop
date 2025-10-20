@@ -252,6 +252,9 @@
   .bg-\[url\] {
     background-color: url;
   }
+  .bg-\[url\(\'\'\)\] {
+    background-image: url('');
+  }
   .bg-\[url\(\'\.\/\'\)\] {
     background-image: url('./');
   }
@@ -269,6 +272,9 @@
   }
   .bg-\[url\(\'\.\/img\/jorna\.webp\'\)\] {
     background-image: url('./img/jorna.webp');
+  }
+  .bg-\[url\(\'\/\'\)\] {
+    background-image: url('/');
   }
   .bg-\[url\(\'\/images\/\'\)\] {
     background-image: url('/images/');
@@ -288,8 +294,14 @@
   .bg-\[url\(\'\/images\/jorna\.webp\'\)\] {
     background-image: url('/images/jorna.webp');
   }
+  .bg-\[url\(\'i\'\)\] {
+    background-image: url('i');
+  }
   .bg-\[url\(\'images\/bg\.jpg\'\)\] {
     background-image: url('images/bg.jpg');
+  }
+  .bg-\[url\(\'img\'\)\] {
+    background-image: url('img');
   }
   .bg-cover {
     background-size: cover;
